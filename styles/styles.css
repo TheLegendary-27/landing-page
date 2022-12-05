@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-1 {
+    background-color: #1f2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+}
+
+.header nav {
+    margin-left: auto;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    padding: 0 8px;
+}
