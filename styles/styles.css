@@ -1,12 +1,31 @@
+* {
+    border: 1px solid black;
+}
+
+html,
+body {
+    border: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px 100px 0px;
+    height: 100vh;
 }
 
-.row-1 {
+body .row {
+    flex: 1;
+}
+
+/* .hero {
     background-color: #1f2937;
     color: white;
-}
+} */
 
 .header {
     display: flex;
@@ -20,6 +39,22 @@ body {
     display: flex;
 }
 
-.nav-list li {
+.nav-list a {
     padding: 0 8px;
+    text-decoration: none;
+}
+
+.flex-hero {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-hero div {
+    flex: 1;
+}
+
+.flex-hero .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
